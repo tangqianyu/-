@@ -144,7 +144,7 @@ let currentUrl = window.location.href;
 let currentSearch = window.location.search;
 let hasCode = currentUrl.indexOf("/?code=") != -1;
 if (hasCode) {
-    window.location.href = "http://vip.18qy.cn" + "/#/auth" + currentSearch;
+    window.location.href = "当前域名" + "/#/auth" + currentSearch;
 }
 ```
 
